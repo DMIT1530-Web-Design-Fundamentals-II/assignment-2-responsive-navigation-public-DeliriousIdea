@@ -26,20 +26,66 @@
 @font-face {
     font-family: "Cooper Hewitt";
     src: url(../assignment-two-responsive-nav-assets/CooperHewitt-Heavy.ttf) format('truetype');
-} 
+}
 
 body {
     font-family: "Merriweather Sans", sans-serif;
+    background-color: #404040;
+    color: #f2f2f2;
+}
+
+h1,
+h2 {
+    font-family: "Cooper Hewitt";
+}
+
+main {
+    background-color: #f2f2f2;
+    color: #666666;
 }
 
 ul {
-    list-style: none; /* Reset css doesn't want to apply */
+    list-style: none;
+    /* Reset css doesn't want to apply */
 }
 
-@media screen and (min-width:820px) {
-
+.discover-button {
+    background-color: #666666;
+    color: #f2f2f2;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
 }
 
-@media screen and (min-width:1350) {
-
+.discover-button:nth-last-child(2) {
+    background-color: #f2f2f2;
+    color: #666666;
+    border-radius: 1.5rem;
+    padding: 1rem;
 }
+
+.header {
+    color: #000;
+}
+
+.header h1:nth-of-type(1) {
+    color: #404040;
+}
+
+.header h1:nth-of-type(2) {
+    color: #707070;
+}
+
+.stuff-card,
+.stuff-card a{
+    color: #666666;
+}
+
+.stuff-card h2 {
+    color: #b29124;
+}
+
+
+@media screen and (min-width:820px) {}
+
+@media screen and (min-width:1350) {}
