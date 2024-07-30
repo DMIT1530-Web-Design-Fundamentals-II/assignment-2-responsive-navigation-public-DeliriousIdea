@@ -1,0 +1,45 @@
+/*
+    Pallete:
+        #f2f2f2 - Nav font
+        #404040 - Dark gray
+            First 2 discover buttons
+            "Good"
+            "Stuff"
+            Video blog div background
+        #707070 - Light gray
+        #666666 - Stuff description font
+        #b29124 - Stuff header font
+        #cbc9c9 - Footer icons normal
+        #c65614 - Heart
+        #727812 - Local
+
+    Fonts:
+        Small text - Merriweather (Google font)
+        Cooper hewitt - Section headers
+        Monofur - system font if you can find a place for it
+*/
+
+/*
+    Globals
+*/
+
+@font-face {
+    font-family: "Cooper Hewitt";
+    src: url(../assignment-two-responsive-nav-assets/CooperHewitt-Heavy.ttf) format('truetype');
+} 
+
+body {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+ul {
+    list-style: none; /* Reset css doesn't want to apply */
+}
+
+@media screen and (min-width:820px) {
+
+}
+
+@media screen and (min-width:1350) {
+
+}
