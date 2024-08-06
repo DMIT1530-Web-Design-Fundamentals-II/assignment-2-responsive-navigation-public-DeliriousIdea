@@ -273,6 +273,10 @@ h1 {
         flex-direction: unset;
     }
 
+    .local-travel {
+        flex-direction: unset;
+    }
+
     .menu-button {
         visibility: hidden;
     }
