@@ -317,14 +317,22 @@ h1 {
         text-align: left;
     }
 
+    .stuff-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .stuff-card { /* todo: not wrapping */
+        flex: 1 0 21%;
+        width: 50%;
+    }
+
     .video-blog {
         display: flex;
+        box-sizing: border-box;
     }
 
 }
 
 @media screen and (min-width:1350px) {
-    body {
-        background-color: yellowgreen;
-    }
 }
