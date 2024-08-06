@@ -275,6 +275,14 @@ h1 {
 
     .local-travel {
         flex-direction: unset;
+        gap: 4rem;
+        margin-bottom: 10rem;
+    }
+
+    .local-travel img {
+        position: absolute;
+        left: 50%;
+        width: 40%;
     }
 
     .menu-button {
@@ -303,6 +311,14 @@ h1 {
         top: 0%;
         left: 0%;
         visibility: hidden;
+    }
+
+    .stuff-container h1 {
+        text-align: left;
+    }
+
+    .video-blog {
+        display: flex;
     }
 
 }
