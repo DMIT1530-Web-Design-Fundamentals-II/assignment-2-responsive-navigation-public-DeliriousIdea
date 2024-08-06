@@ -259,14 +259,53 @@ h1 {
     padding-top: 1rem;
 }
 
-/* @media screen and (min-width:820px) {
+@media screen and (min-width:820px) {
     body {
         background-color: blue;
     }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    footer .menu-list .submenu {
+        position: relative;
+        visibility: visible;
+    }
+
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    .menu-button {
+        visibility: hidden;
+    }
+
+    .menu-list {
+        visibility: visible;
+        position: unset;
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    .menu-list .menu:hover .submenu {
+        cursor:pointer;
+        visibility: visible;
+        position: unset;
+    }
+
+    .submenu {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        visibility: hidden;
+    }
+
 }
 
 @media screen and (min-width:1350px) {
     body {
         background-color: yellowgreen;
     }
-} */
+}
