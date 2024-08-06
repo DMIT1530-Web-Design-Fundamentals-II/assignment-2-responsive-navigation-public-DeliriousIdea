@@ -260,10 +260,6 @@ h1 {
 }
 
 @media screen and (min-width:820px) {
-    body {
-        background-color: blue;
-    }
-
     main {
         padding: 0 1rem;
     }
@@ -273,8 +269,8 @@ h1 {
         visibility: visible;
     }
 
-    .nav-container {
-        justify-content: space-between;
+    .header {
+        flex-direction: unset;
     }
 
     .menu-button {
@@ -286,13 +282,16 @@ h1 {
         position: unset;
         display: flex;
         gap: 1rem;
-
     }
 
     .menu-list .menu:hover .submenu {
         cursor:pointer;
         visibility: visible;
         position: unset;
+    }
+
+    .nav-container {
+        justify-content: space-between;
     }
 
     .submenu {
