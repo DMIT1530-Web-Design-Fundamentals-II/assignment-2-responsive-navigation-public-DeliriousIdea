@@ -130,10 +130,13 @@ h1 {
 }
 
 .menu-list {
+    display: flex;
+    justify-content: flex-end;
     position: absolute;
     top:0;
     left: 0;
     visibility: hidden;
+    padding-right: 1rem;
 }
 
 
@@ -160,12 +163,6 @@ h1 {
     align-items: center;
 }
 
-.nav-container menu-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: flex-end;
-}
 .nav-container h1 {
     font-size: 2rem;
 } 
